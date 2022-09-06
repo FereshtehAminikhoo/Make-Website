@@ -1,1 +1,43 @@
+body{
+    background-color: lightgrey;
+}
+header{
+    background-color: rgb(190, 171, 228);
+    padding: 30px;
+    margin: auto;
+}
+.parent{
+    border : 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+}
+.goals{
+    border : 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 20px;
+    margin: 80px;
+}
+.rules{
+    border : 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 20px;
+    margin: 140px;
+    flex-direction: column-reverse;
+}
+#rule{
+    flex-direction: column;
+    align-self: center;
+}
+.goals-box-child{
+    border : 1px solid lightblue;
+    background-color: lightblue;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 100px;
+    margin: 100px;
 
+}
