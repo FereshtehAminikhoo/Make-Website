@@ -39,5 +39,29 @@ header{
     justify-content: center;
     padding: 100px;
     margin: 100px;
+}
+.description-box-child{
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px 2px;
+    margin: 10px 2px;
+    flex-direction: column;
+}
+.rules-box-child{
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px 2px;
+    margin: 10px 2px;
+    flex-direction: row;
+}
+.about-box-child{
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px 2px;
+    margin: 10px 2px;
+    flex-direction: row;
 
 }
