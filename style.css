@@ -28,11 +28,12 @@ header {
 }
 .rules {
   border: 1px solid black;
+  display: flex;
   border-radius: 10px;
-  justify-content: center;
+  justify-content: space-between;
   padding: 20px;
   margin: 40px;
-  flex-direction: column-reverse;
+  flex-direction: row;
 }
 .goals-picture{
   margin: 10px;
@@ -158,3 +159,33 @@ table,tr,td{
 .w-50{ 
   width: 50%;
 } 
+.rules-div {
+  display: inline-block;
+  height: auto;
+  width: 10%;
+  border-right: 1px solid black;
+}
+.rule-items {
+  padding-left: 30px;
+  display: inline-block;
+  width: 90%;
+}
+@media screen and (max-width: 556px) {
+  .rules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rules-div {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid black;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .rule-items {
+    padding-left: 5px;
+    display: block;
+    width: 100%;
+  }
+}
