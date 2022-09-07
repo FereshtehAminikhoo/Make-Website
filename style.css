@@ -34,6 +34,9 @@ header {
   padding: 20px;
   margin: 40px;
   flex-direction: row;
+  width: 80%;border: solid 1px black;
+  padding: 10px 15px 30px 15px;
+  margin: 10px auto 10px auto;
 }
 .goals-picture{
   margin: 10px;
@@ -164,6 +167,10 @@ table,tr,td{
   height: auto;
   width: 10%;
   border-right: 1px solid black;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center
 }
 .rule-items {
   padding-left: 30px;
