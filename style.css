@@ -1,67 +1,160 @@
-body{
-    background-color: lightgrey;
+body {
+  background-color: lightgrey;
 }
-header{
-    background-color: rgb(190, 171, 228);
-    padding: 30px;
-    margin: auto;
+header {
+  background-color: rgb(190, 171, 228);
+  padding: 30px;
+  margin: auto;
 }
-.parent{
-    border : 1px solid black;
-    border-radius: 10px;
-    justify-content: center;
-    padding: 20px;
-    margin: 50px;
+.description-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-.goals{
-    border : 1px solid black;
-    border-radius: 10px;
-    justify-content: center;
-    padding: 20px;
-    margin: 80px;
+.parent {
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 20px;
+  margin: 50px;
 }
-.rules{
-    border : 1px solid black;
-    border-radius: 10px;
-    justify-content: center;
-    padding: 20px;
-    margin: 140px;
-    flex-direction: column-reverse;
+.goals {
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 20px;
+  margin: 40px;
 }
-#rule{
-    flex-direction: column;
-    align-self: center;
+.rules {
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 20px;
+  margin: 40px;
+  flex-direction: column-reverse;
 }
-.goals-box-child{
-    border : 1px solid lightblue;
-    background-color: lightblue;
-    border-radius: 10px;
-    justify-content: center;
-    padding: 100px;
-    margin: 100px;
+.goals-picture{
+  margin: 10px;
 }
-.description-box-child{
-    border: 1px solid lightblue;
-    background-color: lightblue;
-    border-radius: 10px;
-    padding: 10px 2px;
-    margin: 10px 2px;
-    flex-direction: column;
+#rule {
+  flex-direction: column;
+  align-self: center;
 }
-.rules-box-child{
-    border: 1px solid lightblue;
-    background-color: lightblue;
-    border-radius: 10px;
-    padding: 10px 2px;
-    margin: 10px 2px;
+.section-img{
+  width: 200px;
+  height: 150px;
+  margin: 15px;
+}
+.margin-b-10{
+  margin-bottom: 10px;
+}
+.goals-box-child {
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  text-align: center;
+}
+.goals-box{
+    display:flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
-.about-box-child{
-    border: 1px solid lightblue;
-    background-color: lightblue;
-    border-radius: 10px;
-    padding: 10px 2px;
-    margin: 10px 2px;
+.description-box-child {
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  border-radius: 10px;
+  width: 250px;
+  padding: 10px 2px;
+  margin: 10px 2px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.rules-box{
+    display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.rules-box-child {
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 10px 2px;
+  flex-direction: row;
+  width: 200px;
+  text-align: center;
+  margin-top: 15px;
+}
+.about-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.about-box-child {
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 10px 2px;
+  margin: 10px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.list-items {
+  list-style: none;
+}
+.description-picture{
+    width: 150px;
+    height: 150px;
+}
+.rules-picture{
+    width: 120px;
+}
+.description-link{
+    margin-bottom: 20px;
+    background-color: rgb(197, 119, 119);
+    padding: 8px;
+    border-radius: 4px;
+}
+table,tr,td{
+  border: solid 1px black;
+}
+.curve-border{
+  border-radius: 5px;
+  width: 80%;
 
+}
+.table-section{
+  display: flex;
+  justify-content: center;
+
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.form-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.w-50{
+  width: 50%;
 }
