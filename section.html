@@ -8,10 +8,12 @@
   <body>
     <header>
       <nav>
-        <a href="description.html">Description</a>
-        <a href="goals.html">Goals</a>
-        <a href="rules.html">Rules</a>
-        <a href="section.html">Section</a>
+        <ul class="nav-items">
+          <li class="list-items"><a href="description.html">Description</a></li>
+          <li class="list-items"><a href="goals.html">Goals</a></li>
+          <li class="list-items"><a href="rules.html">Rules</a></li>
+          <li class="list-items"><a href="section.html">Section</a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -19,94 +21,112 @@
         <article class="about-box-child">
           <img
             id="management-picture"
+            class="section-img"
             src="./images/Management.png"
             alt="management team"
           />
-          <h3>Management Team</h3>
+          <span>Management Team</span>
         </article>
         <article class="about-box-child">
-          <img id="media-picture" src="./images/media.png" alt="media team" />
-          <h3>Media Team</h3>
+          <img
+            id="media-picture"
+            src="./images/media.png"
+            class="section-img"
+            alt="media team"
+          />
+          <span>Media Team</span>
         </article>
         <article class="about-box-child">
           <img
             id="english-picture"
             src="./images/english.jfif"
             alt="english team"
+            class="section-img"
           />
-          <h3>English Team</h3>
+          <span>English Team</span>
         </article>
         <article class="about-box-child">
           <img
             id="teaching-picture"
             src="./images/teaching.jfif"
             alt="teaching team"
+            class="section-img"
           />
-          <h3>Teaching Team</h3>
+          <span>Teaching Team</span>
         </article>
       </section>
-      <table>
-        <thead>
-          <tr>
-            <th colspan="4">Management Media English Teacher</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Fereshteh</td>
-            <td>Fereshteh</td>
-            <td>Fereshteh</td>
-            <td>Fereshteh</td>
-          </tr>
-          <tr>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-          </tr>
-          <tr>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-          </tr>
-          <tr>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-          </tr>
-          <tr>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table-section">
+        <table class="curve-border">
+          <thead>
+            <tr>
+              <th>Management</th>
+              <th>Media</th>
+              <th>English</th>
+              <th>Teacher</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fereshteh</td>
+              <td>Fereshteh</td>
+              <td>Fereshteh</td>
+              <td>Fereshteh</td>
+            </tr>
+            <tr>
+              <td>Lorem.</td>
+              <td>Lorem.</td>
+              <td>Lorem.</td>
+              <td>Lorem.</td>
+            </tr>
+            <tr>
+              <td>Lorem.</td>
+              <td>Lorem.</td>
+              <td>Lorem.</td>
+              <td>Lorem.</td>
+            </tr>
+            <tr>
+              <td>Lorem.</td>
+              <td>Lorem.</td>
+              <td>Lorem.</td>
+              <td>Lorem.</td>
+            </tr>
+            <tr>
+              <td>Lorem.</td>
+              <td>Lorem.</td>
+              <td>Lorem.</td>
+              <td>Lorem.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <br />
-      <br />
-      <label for="idea">Write your idea</label><br />
-      <textarea id="idea" name="idea" rows="5" cols="33">
-Please write here ...
-        </textarea
-      >
     </main>
     <br />
     <br />
     <hr />
     <footer>
       <h4>Also you can join us, so please fill out this form</h4>
-      <form>
-        <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" name="fullname" /><br /><br />
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" /><br /><br />
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" /><br /><br />
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" /><br /><br />
-        <button>Submit</button>
+      <form class="contact-form">
+        <div class="form-div">
+          <label for="fullname" class="w-50">Full Name:</label>
+          <input type="text" class="w-50" id="fullname" name="fullname" />
+        </div>
+        <div class="form-div">
+          <label for="username" class="w-50">Username:</label>
+          <input type="text" id="username" class="w-50" name="username" />
+        </div>
+
+        <div class="form-div">
+          <label for="email" class="w-50">Email:</label>
+          <input type="email" class="w-50" id="email" name="email" />
+        </div>
+        <div class="form-div">
+          <label for="password" class="w-50">Password:</label>
+          <input type="password" class="w-50" id="password" name="password" />
+        </div>
+        <div class="form-div">
+          <button>Submit</button>
+        </div>
       </form>
     </footer>
   </body>
