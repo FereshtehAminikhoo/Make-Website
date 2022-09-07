@@ -8,69 +8,83 @@
   <body>
     <header>
       <nav>
-        <a href="description.html">Description</a>
-        <a href="goals.html">Goals</a>
-        <a href="rules.html">Rules</a>
-        <a href="section.html">Section</a>
+        <ul class="nav-items">
+          <li class="list-items"><a href="description.html">Description</a></li>
+          <li class="list-items"><a href="goals.html">Goals</a></li>
+          <li class="list-items"><a href="rules.html">Rules</a></li>
+          <li class="list-items"><a href="section.html">Section</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-      <section class="parent">
-        <h1>Description</h1>
-        <img src="" alt="" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus
-          repudiandae sint fugiat, <mark>facere quod enim vitae</mark>,
-          <span>aspernatur omnis doloremque</span> beatae voluptatum ullam!
-          Cupiditate vitae sit natus molestias dignissimos sint quisquam eveniet
-          cum, doloremque ratione voluptatum! Velit nobis asperiores maiores.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus
-          repudiandae sint fugiat, facere quod enim vitae,
-          <span>aspernatur omnis doloremque</span> beatae voluptatum ullam!
-          Cupiditate vitae sit natus molestias dignissimos sint quisquam eveniet
-          cum, doloremque ratione voluptatum! Velit nobis asperiores maiores.
-        </p>
-      </section>
-      <br />
-      <section class="description-box">
-        <article class="description-box-child">
-          <img
-            class="description-picture"
-            src="./images/DescriptionButton.png"
-            alt="description"
-          />
-          <h3>Description</h3>
-          <a href="description.html">more</a>
-        </article>
-        <article class="description-box-child">
-          <img class="goals-picture" src="./images/goals.png" alt="goals" />
-          <h3>Goals</h3>
-          <a href="goals.html">more</a>
-        </article>
-        <article class="description-box-child">
-          <img class="rules-picture" src="./images/rules.jfif" alt="rules" />
-          <h3>Rules</h3>
-          <a href="rules.html">more</a>
-        </article>
-      </section>
+        <section class="parent">
+          <h1>Description</h1>
+          <img src="" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus
+            repudiandae sint fugiat, <mark>facere quod enim vitae</mark>,
+            <span>aspernatur omnis doloremque</span> beatae voluptatum ullam!
+            Cupiditate vitae sit natus molestias dignissimos sint quisquam eveniet
+            cum, doloremque ratione voluptatum! Velit nobis asperiores maiores.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus
+            repudiandae sint fugiat, facere quod enim vitae,
+            <span>aspernatur omnis doloremque</span> beatae voluptatum ullam!
+            Cupiditate vitae sit natus molestias dignissimos sint quisquam eveniet
+            cum, doloremque ratione voluptatum! Velit nobis asperiores maiores.
+          </p>
+        </section>
+        <br />
+
+        <div class="description-box">
+          <article class="description-box-child">
+            <img
+              class="description-picture"
+              src="./images/DescriptionButton.png"
+              alt="description"
+            />
+            <h3>Description</h3>
+            <a href="description.html" class="description-link">more</a>
+          </article>
+          <article class="description-box-child">
+            <img class="description-picture" src="./images/goals.png" alt="goals" />
+            <h3>Goals</h3>
+            <a href="goals.html" class="description-link">more</a>
+          </article>
+          <article class="description-box-child">
+            <img class="description-picture" src="./images/rules.jfif" alt="rules" />
+            <h3>Rules</h3>
+            <a href="rules.html" class="description-link">more</a>
+          </article>
+        </div>
     </main>
     <br />
     <br />
     <hr />
     <footer>
       <h4>Also you can join us, so please fill out this form</h4>
-      <form>
-        <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" name="fullname" /><br /><br />
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" /><br /><br />
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" /><br /><br />
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" /><br /><br />
-        <button>Submit</button>
+      <form class="contact-form">
+        <div class="form-div">
+          <label for="fullname" class="w-50">Full Name:</label>
+          <input type="text" class="w-50" id="fullname" name="fullname" />
+        </div>
+        <div class="form-div">
+          <label for="username" class="w-50">Username:</label>
+          <input type="text" id="username" class="w-50" name="username" />
+        </div>
+
+        <div class="form-div">
+          <label for="email" class="w-50">Email:</label>
+          <input type="email" class="w-50" id="email" name="email" />
+        </div>
+        <div class="form-div">
+          <label for="password" class="w-50">Password:</label>
+          <input type="password" class="w-50" id="password" name="password" />
+        </div>
+        <div class="form-div">
+          <button>Submit</button>
+        </div>
       </form>
     </footer>
   </body>
