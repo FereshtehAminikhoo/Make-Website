@@ -8,10 +8,12 @@
   <body>
     <header>
       <nav>
-        <a href="description.html">Description</a>
-        <a href="goals.html">Goals</a>
-        <a href="rules.html">Rules</a>
-        <a href="section.html">Section</a>
+        <ul class="nav-items">
+          <li class="list-items"><a href="description.html">Description</a></li>
+          <li class="list-items"><a href="goals.html">Goals</a></li>
+          <li class="list-items"><a href="rules.html">Rules</a></li>
+          <li class="list-items"><a href="section.html">Section</a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -20,27 +22,27 @@
           <article class="goals-box-child">
             <img class="goals-picture" src="./images/goals.png" alt="goal1" />
             <h3>Goal1</h3>
-            <a href="#goal1">more</a>
+            <a href="#goal1" class="margin-b-10">more</a>
           </article>
           <article class="goals-box-child">
             <img class="goals-picture" src="./images/goals.png" alt="goal2" />
             <h3>Goal2</h3>
-            <a href="#goal2">more</a>
+            <a href="#goal2" class="margin-b-10">more</a>
           </article>
           <article class="goals-box-child">
             <img class="goals-picture" src="./images/goals.png" alt="goal3" />
             <h3>Goal3</h3>
-            <a href="#goal3">more</a>
+            <a href="#goal3" class="margin-b-10">more</a>
           </article>
           <article class="goals-box-child">
             <img class="goals-picture" src="./images/goals.png" alt="goal4" />
             <h3>Goal4</h3>
-            <a href="#goal4">more</a>
+            <a href="#goal4" class="margin-b-10">more</a>
           </article>
           <article class="goals-box-child">
             <img class="goals-picture" src="./images/goals.png" alt="goal5" />
             <h3>Goal5</h3>
-            <a href="#goal5">more</a>
+            <a href="#goal5" class="margin-b-10">more</a>
           </article>
         </section>
         <br />
@@ -86,16 +88,27 @@
     <hr />
     <footer>
       <h4>Also you can join us, so please fill out this form</h4>
-      <form>
-        <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" name="fullname" /><br /><br />
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" /><br /><br />
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" /><br /><br />
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" /><br /><br />
-        <button>Submit</button>
+      <form class="contact-form">
+        <div class="form-div">
+          <label for="fullname" class="w-50">Full Name:</label>
+          <input type="text" class="w-50" id="fullname" name="fullname" />
+        </div>
+        <div class="form-div">
+          <label for="username" class="w-50">Username:</label>
+          <input type="text" id="username" class="w-50" name="username" />
+        </div>
+
+        <div class="form-div">
+          <label for="email" class="w-50">Email:</label>
+          <input type="email" class="w-50" id="email" name="email" />
+        </div>
+        <div class="form-div">
+          <label for="password" class="w-50">Password:</label>
+          <input type="password" class="w-50" id="password" name="password" />
+        </div>
+        <div class="form-div">
+          <button>Submit</button>
+        </div>
       </form>
     </footer>
   </body>
